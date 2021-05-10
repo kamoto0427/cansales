@@ -1,0 +1,303 @@
+#list_success {
+  text-align: center;
+  background-color: lightblue;
+}
+
+#login_name {
+  background: beige;
+  text-align: center;
+}
+
+/* リスト一覧 */
+.list-container {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  background: #fff;
+  padding-top: 50px;
+}
+
+/* サイドバー */
+.sidebar {
+  width: 30%;
+  margin-right: 30px;
+}
+
+#s-category {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+/* メイン画面 */
+.main {
+  width: 100%;
+}
+
+.search-box {
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+/* 検索フォーム */
+input[type=search] {
+	-webkit-appearance: none;
+	display: inline-block;
+	margin-right: 0;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 700px;
+	height: 50px;
+	font-size: 100%;
+	box-sizing: border-box;
+	border-radius: 5px 0 0 5px;
+	border: 1px solid #ccc;
+	border-right: none;
+}
+input[type=submit] {
+	-webkit-appearance: none;
+	display: inline-block;
+	padding: 0 10px;
+	color: #fff;
+	width: 100px;
+	height: 50px;
+	font-size: 100%;
+	vertical-align: top;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	background: #1f76e2;
+}
+
+/* リスト */
+.lists {
+  display: flex;
+  width: 95%;
+  height: 300px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.l-left-contents {
+  width: 70%;
+  padding-right: 10px;
+}
+
+.l-right-contents {
+  width: 30%;
+}
+
+.list-tags {
+  width: 80%;
+  height: 40px;
+}
+
+.list-detail {
+  width: 100%;
+  height: 45%;
+}
+
+/* リスト内 */
+#list-company {
+  font-size: 16px;
+}
+
+#l-left-title {
+  font-size: 17px;
+}
+
+.l-right-contents_top {
+  height: 70%;
+  padding: 20px;
+  border-left: dotted gray 1px;
+}
+
+.l-right-contents_bottom {
+  height: 30%;
+}
+
+.service-priceBox {
+  background: cadetblue;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#price-box {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+#price {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.favorite-btn {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#favorite-text {
+  font-size: 10px;
+}
+
+.bottom-btnLists {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#l-showBtn {
+  margin-right: 20px;
+}
+
+/* リスト投稿 */
+.p-wrapper {
+  width: 100%;
+}
+
+.p-container {
+  width: 80%;
+  margin: 70px auto;
+  border: 1px solid #ebeef5;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+}
+
+#p-title {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#p-form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+#p-category, #p-price, #p-image {
+  text-align: center;
+  padding: 30px 0;
+}
+
+#category-select {
+  width: 35%;
+  margin: 0 auto;
+}
+
+#p-price_form {
+  width: 200px;
+  margin: 0 auto;
+}
+
+#p-image_upload {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.p-btn {
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#p-btn_btn {
+  font-size: 24px;
+  padding: 10px 200px;
+}
+
+.err_one {
+  text-align: center;
+}
+
+/* リスト詳細 */
+.show-container {
+  width: 90%;
+  margin: 50px auto;
+  border: 1px solid #ebeef5;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+}
+
+#contents_btn {
+  cursor: pointer;
+  color: #0366D6;
+}
+
+#show-title {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.show-img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.show-img img {
+  width: 100%;
+  height: 500px;
+}
+
+.show-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th {
+  width: 20%;
+}
+  
+table th,table td{
+  padding: 10px 10px;
+  text-align: left;
+}
+  
+table tr:nth-child(odd){
+  background-color: #eee
+}
+
+.show-textAria {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.show-btn_contents {
+  margin: 80px auto;
+  text-align: center;
+}
+
+#show-btn_listBack, #show-btn_request, #show-btn_edit, #show-btn_delete {
+  font-size: 22px;
+  width: 30%;
+  margin-right: 30px;
+}
+
+/* タグリスト */
+.tag_filed {
+  width: 100%;
+}
+
+.tagify__input {
+  height: 28px;
+}
+
+.favorite_btn {
+  background: none;
+  border: none;
+}
+
+.favorite_count {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+i {
+  color: goldenrod;
+}

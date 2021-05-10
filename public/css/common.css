@@ -1,0 +1,76 @@
+/* ヘッダー */
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: red;
+}
+
+.hr-container {
+  display: flex;
+}
+
+#c-logo {
+  font-size: 24px;
+  padding-right: 10px;
+  padding-top: 4px;
+  color: red;
+}
+
+.hr-title {
+  display: flex;
+  align-items: flex-end;
+}
+
+h3 {
+  color: black;
+}
+
+h7 {
+  padding-bottom: 8px;
+  padding-left: 10px;
+}
+
+.hl-container {
+  margin-right: 20px;
+}
+
+#login_btn {
+  margin-right: 20px;
+}
+
+/* フッター  */
+.f-wrapper {
+  display: flex;
+  padding: 50px 80px 0px 80px;
+  background: #fff;
+}
+
+.fr-logo {
+  padding-top: 5px;
+}
+
+.fr-subtitle {
+  padding-left: 20px;
+}
+
+.contents-top {
+  display: flex;
+}
+
+.text-bottom {
+  display: flex;
+  margin: 0 auto;
+  width: 35%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+
+
+.req-container {
+  width: 90%;
+  margin: 50px auto;
+  border: 1px solid #ebeef5;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+}
+
+.req-contents {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#req-title {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.req-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th {
+  width: 20%;
+}
+  
+table th,table td{
+  padding: 10px 10px;
+  text-align: left;
+}
+  
+table tr:nth-child(odd){
+  background-color: #eee
+}
+
+.req-textAria {
+  height: 300px;
+  margin: 30px auto;
+  background-color: aquamarine;
+}
+
+.show-comment {
+  margin: 20px auto;
+  background-color: beige;
+  padding: 10px;
+}
+
+.show-comment a {
+  padding: 10px;
+  font-size: 15px;
+}
+
+#comment_field {
+  padding: 5px;
+}
+
+.show-request_btn {
+  text-align: end;
+}
+
+.created_deleteBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.r-list_backBtn {
+  text-align: center;
+  padding-top: 50px;
+}

@@ -1,0 +1,64 @@
+li {
+  list-style: none;
+}
+
+#mypage-show_title {
+  text-align: center;
+}
+
+.mypage-show_wrapper {
+  padding: 50px 0;
+}
+
+.mypage-show_container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #ebeef5;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+}
+
+.free-box {
+  padding: 5px;
+  width: 100%;
+  height: 300px;
+  border: 2px solid #efefef;
+}
+
+.mypage-btn {
+  text-align: center;
+  padding: 50px;
+}
+
+#list-back {
+  margin-right: 100px;
+}
+
+/* タブエリア */
+.tab-list {
+  display: flex;
+}
+
+.tab-item {
+  background: #fff;
+  padding: 10px 25px;
+}
+
+.tab-item.active {
+  background: #eee;
+}
+
+.tab-item:hover {
+  cursor: pointer;
+}
+
+.content-item {
+  background: #fff;
+  padding: 20px;
+  display: none;
+}
+
+.content-item.show {
+  display: block;
+}

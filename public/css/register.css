@@ -1,0 +1,94 @@
+/* 共通 */
+.wrapper, .r-wrapper, .l-wrapper {
+  background-color: #fff;
+}
+
+.container, .r-container, .l-container {
+  padding: 80px;
+}
+
+form, .r-inner {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #ebeef5;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+}
+
+/* 新規登録画面 */
+#register-title, .register_btn {
+  text-align: center;
+}
+
+/* 新規登録完了画面 */
+#registered-title, #login-need {
+  text-align: center;
+}
+
+.r-box {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.box-text {
+  padding-right: 30px;
+  line-height: 40px;
+}
+
+/* ログイン画面 */
+#success {
+  font-size: 15px;
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+#login-title, .login_btn {
+  text-align: center;
+}
+
+.l-link {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ログイン完了画面 */
+#done-title {
+  padding: 10px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.loginDone-logo {
+  width: 13%;
+  margin: 0 auto;
+}
+
+#check {
+  color: blue;
+  font-size: 150px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.list-btn {
+  width: 42%;
+  margin: 0 auto;
+}
+
+#list {
+  width: 500px;
+  height: 70px;
+  line-height: 60px;
+  font-size: 28px;
+}
+

@@ -1,0 +1,138 @@
+.wrapper {
+  background-color: #eee;
+}
+
+.wrapper img {
+  position: relative;
+  opacity: 0.4;
+}
+/* トップ */
+.service-title {
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+
+#s-title {
+  font-weight: bold;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: blue;
+
+}
+
+#s-title_bottom {
+  font-weight: bold;
+  color: blue;
+}
+
+#top-btn {
+  margin: 250px;
+  width: 60%;
+  font-size: 30px;
+}
+
+h2, h4, p {
+  text-align: center;
+}
+
+h4 {
+  padding: 30px;
+}
+/* リクエストとは？ */
+.what-req {
+  background-color: khaki;
+}
+
+#req-title, #s-flow_title, #l-title, #often-question {
+  border-bottom: double;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.req-contents {
+  padding: 50px;
+  font-size: 20px;
+}
+
+/* サービスを利用する流れ */
+.service-flow {
+  background-color: beige;
+}
+
+.s-flow_boxes {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+
+.s-flow_box{
+  width: 30%;
+  height: 200px;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: darkred;
+  background: #fff8e8;/*背景色*/
+  border-top: solid 6px #ffc06e;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
+  margin-right: 20px;
+}
+
+.s-flow_box-title {
+  border-bottom: 1px solid;
+}
+
+.s-flow_box-text {
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* リストサンプル */
+.lists-sample {
+  background-color: papayawhip;
+  padding-bottom: 30px;
+}
+
+.lists-sample_inner {
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 50px;
+}
+
+.lists {
+  margin: 50px 0;
+}
+
+/* よくある質問アコーディオン */
+.question-wrapper {
+  background-color: snow;
+}
+
+#accordionFlushExample {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.accordion-button {
+  font-weight: bold;
+}
+
+#logout_title {
+  text-align: center;
+  padding: 50px;
+}
+
+.logout_area {
+  text-align: center;
+}
+
+#logout_area-btn {
+  padding: 10px 150px;
+  font-size: 28px;
+}
